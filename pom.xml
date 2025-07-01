@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>np.com.moco.visitorservice</groupId>
+    <groupId>np.com.shreeya</groupId>
     <artifactId>GithubActions</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -9,7 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <exec.mainClass>np.com.moco.visitorservice.githubtest.GithubTest</exec.mainClass>
+        <exec.mainClass>np.com.shreeya.githubactions.Main</exec.mainClass>
     </properties>
     <build>
         <plugins>
@@ -22,7 +22,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>np.com.moco.githubtest.Main</mainClass>
+                            <mainClass>np.com.shreeya.githubactions.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
