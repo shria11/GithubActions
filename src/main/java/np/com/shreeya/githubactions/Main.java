@@ -1,4 +1,4 @@
-package np.com.moco.githubtest;
+package np.com.shreeya.githubactions;
 
 /**
  *
